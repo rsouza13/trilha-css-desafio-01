@@ -1,0 +1,107 @@
+/*
+* Tiago Rodrigues
+*/
+
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+    width: 100vw;
+    margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: rgb(89, 151, 223);
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 10%, rgba(0, 63, 112, .4) 50%, rgba(0, 0, 0, .5) 90%), url(../images/banner.png);
+    border-bottom: 1px solid #33A8DB;
+}
+
+header p {
+    font-size: 20px;
+}
+
+header p {
+    color: white;
+    max-width: 510px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header button {
+    color: #31A8DD;
+    border: solid 2px;
+    font-weight: 900;
+    padding: 20px;
+    font-family: Arial;
+    text-transform: uppercase;
+    background-color: transparent;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+main section h2 {
+    margin-top: 0px;
+    padding-top: 55px;
+}
+
+main p {
+    color: white;
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 750px;
+}
+
+#course-content{
+    background-color: black;
+    padding-top: 20;
+    padding-bottom: 30px;
+}
+
+.module {
+    width: 535px;
+    color: white;
+    border-color: rgb(89, 151, 223);
+    border-width: 10px;
+    border: solid 1px #33A8DB;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 15px 0;
+}
+
+.module span{
+    color: rgb(70, 170, 219);
+}
+
+#transform-world {
+    background-image: url("../images/woman-code.png");
+    height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 120px;
+  }
+  
+  #transform-world p {
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+  }
+
+  #professional-challenges{
+    background-color: black;
+    border-bottom: 1px solid #33A8DB;
+  }
+
+  footer{
+    background-color: black;
+    padding: 15px;
+  }
