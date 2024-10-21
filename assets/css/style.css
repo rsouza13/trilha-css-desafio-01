@@ -101,7 +101,17 @@ main p {
     border-bottom: 1px solid #33A8DB;
   }
 
-  footer{
+  footer {
     background-color: black;
-    padding: 15px;
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+  }
+
+  footer p {
+    color: #FFF;
+  }
+  
+  footer p a {
+    color: #33A8DB;
   }
